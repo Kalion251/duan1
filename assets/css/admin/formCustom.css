@@ -1,0 +1,13 @@
+.form-outline.invalid {
+  .form-mess {
+      color: rgb(246, 78, 78);
+      margin: 2px 10px;
+  }
+
+  input {
+      border-color: rgb(246, 78, 78);
+  }
+}
+.btn {
+  margin: 30px 0 !important;
+}

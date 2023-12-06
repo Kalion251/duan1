@@ -1,0 +1,216 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+header {
+    height: 100px;
+    line-height: 100px;
+    background-color: #f2dede;
+    border: 1px solid #a94442;
+    border-radius: 4px;
+}
+header .tieuDe h1 {
+    margin: 0px;
+    padding-left: 20px;
+    color: #a94442;
+    font-size: 36px;
+}
+/* nav */
+.menu {
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.menu ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu ul li {
+    display: inline;
+    padding-left: 20px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* trang chủ */
+.noiDung {
+    margin-top: 10px;
+}
+.article {
+    float: left;
+    width: 820px;
+    height: 1200px;
+    background-color: #ffffff;
+    
+}
+.slide_show {
+    width: 790px;
+    height: 450px;
+    /* background-color: aquamarine; */
+}
+.produc1 {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 4px;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.produc1 img {
+    width: 248px;
+    height: 250px;
+    border-radius: 4px;
+    background-size: cover;
+}
+.produc1 b {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.b1 {
+    color: green;
+}
+
+
+/* aside */
+.aside {
+    float: right;
+    width: 280px;
+    height: 1450px;
+    background-color: #ffffff;
+}
+.box1 {
+    max-width: 280px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.box1 h3 {
+    margin: 0;
+    padding: 10px 0 15px 5px;
+    border-bottom: 1px solid rgb(224, 224, 221);
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+.TK_lable {
+    margin-left: 15px;
+    margin-bottom: 210px;
+}
+.TK_inp {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 240px;
+    height: 20px;
+}
+.TK_a {
+    /* margin-left: px; */
+    text-decoration: none;
+    color: rgb(76, 113, 223);
+}
+#bnt {
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+
+}
+.checkbox{
+    margin-left: 15px;
+}
+/* box2 */
+.box2 {
+    max-width: 280px;
+    min-height: 255px;
+    /* height: 500px; */
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.box2 h3 {
+    margin: 0;
+    padding: 10px 0 15px 5px;
+    border-bottom: 1px solid rgb(224, 224, 221);
+    background-color: gainsboro;
+    /* margin-bottom: 10px; */
+}
+.ul_box2 {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.li_box2 {
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid gainsboro;
+    text-align: left;
+   
+}
+.li_box2 a {
+    text-decoration: none;
+    color: rgb(36, 179, 231);
+    padding-left: 10px;
+}
+.search {
+    width: 200px;
+    height: 20px;
+    /* margin-top: 10px; */
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.search2 {
+    margin: 5px 0px 5px 35px;
+}
+
+/* box3 */
+.box3 {
+    max-width: 280px;
+    min-height: 334px;
+    /* height: 340px; */
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.box3 h3 {
+    margin: 0;
+    padding: 10px 0 15px 5px;
+    border-bottom: 1px solid rgb(224, 224, 221);
+    background-color: gainsboro;
+    /* margin-bottom: 10px; */
+}
+.ul_box3 {
+    margin: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.li_box3 {
+    margin-top: 10px;
+    text-align: left;
+}
+.li_box3 a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(238, 72, 72);
+}
+/* foot */
+footer {
+    clear: both;
+    background-color: tomato;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    text-align: center;
+}
+footer b {
+    text-align: center;
+}
